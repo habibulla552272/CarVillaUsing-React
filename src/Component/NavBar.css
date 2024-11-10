@@ -1,0 +1,169 @@
+.Navbar {
+  background-image: url(/src/assets/welcome-banner.jpg);
+  background-repeat: no-repeat;
+}
+.navTopLeft {
+  width: 30%;
+}
+.navTopLeft h2 {
+  color: whitesmoke;
+}
+.navTopLeft p {
+  color: whitesmoke;
+  font-size: 40px;
+  display: none;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.navTopRight {
+  width: 60%;
+}
+.navTopRight ul {
+  display: flex;
+  list-style: none;
+}
+.navTopRight ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 22px;
+}
+
+/* navMid */
+
+.navMid {
+  color: whitesmoke;
+  text-align: center;
+  padding: 280px 0 260px;
+}
+.navMid h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.navMid p {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 735px;
+  margin: 0 auto;
+}
+.navMid button {
+  background-color: rgba(41, 41, 243, 0.861);
+  color: white;
+  width: 250px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin: 55px;
+}
+
+/* navBottom */
+
+.NavBottom {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+  background-color: white;
+  padding: 40px 5px;
+  z-index: 100;
+  box-shadow: 5px 0px 0px snow;
+}
+.NavBottom select {
+  margin: 0 auto;
+  padding: 6px 12px;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(241, 239, 239, 0.847);
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.NavBottom p {
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px 0px;
+  padding-top: 10px;
+}
+
+.NavBottom-Wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.NavBottom1 {
+  width: 22%;
+}
+
+.NavBottom2 {
+  width: 22%;
+}
+
+.NavBottom3 {
+  width: 22%;
+}
+
+.NavBottom4 {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavBottom4 a button {
+  padding: 20px 45px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgba(52, 52, 233, 0.793);
+}
+@media (max-width: 700px) {
+  /* navtop */
+  .navTopRight ul {
+    display: flex;
+    list-style: none;
+    display: none;
+  }
+
+  /* navbottom */
+
+  
+.NavBottom {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+  background-color: white;
+  padding: 40px 5px;
+  z-index: 100;
+  box-shadow: 5px 0px 0px snow;
+}
+  .NavBottom-Wrap {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .NavBottom1 {
+    width: 100%;
+  }
+
+  .NavBottom2 {
+    width: 100%;
+  }
+
+  .NavBottom3 {
+    width: 100%;
+  }
+
+  .NavBottom4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+}

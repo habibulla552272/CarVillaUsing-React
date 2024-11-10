@@ -1,0 +1,76 @@
+.Sliders{
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: gainsboro;
+}
+
+.Sliders h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.Sliders h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.Slider {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.sliderLeft {
+  width: 45%;
+}
+.sliderLeft img {
+  width: 100%;
+}
+
+.sliderRight {
+  width: 45%;
+}
+.sliderRight h1 {
+  font-size: 35px;
+  padding: 20px 5px;
+}
+.sliderRight p {
+  width: 80%;
+  padding: 10px 2px;
+}
+.sliderRight button {
+  padding: 18px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(19, 45, 241);
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .Slider {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .sliderLeft {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .sliderLeft img {
+    width: 100%;
+  }
+
+  .sliderRight {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,27 @@
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 10px;
+    margin: 50px auto;
+}
+
+@media(max-width:700px){
+    .Logo3{
+        display: none;
+    }
+       .Logo4{
+        display: none;
+    }
+
+       .Logo5{
+        display: none;
+    }
+
+       .Logo6{
+        display: none;
+    }
+
+
+
+}
